@@ -1,0 +1,112 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://thumbs.dreamstime.com/b/patr%C3%B3n-de-gato-textos-sin-inconvenientes-con-gatos-multicolores-lindos-fondos-pantalla-para-ni%C3%B1os-mascotas-divertidas-y-felices-159242424.jpg);
+    /* background-size: 100%; */
+}
+
+.contenedor{
+    /* margin: 60px auto; */
+    width: 450px;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+}
+
+.contenedor h2{
+    margin: 0 0 50px;
+    padding: 0;
+    font-size: 30px;
+    color: #8D6CE0;
+    text-align: center;
+}
+
+.contenedor .elemento label{
+    color: #E06793;
+    font-size: 20px;
+}
+
+.contenedor .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    color: rgb(5, 5, 5);
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid  black;
+    margin-bottom: 30px;
+}
+
+.contenedor .elemento input[type="submit"]{
+    background-color: #E06793;
+    border:none;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 30px;
+    color: #fff;
+}
+
+img{
+    border-radius: 10px;
+    width: 95px;
+    /* position: absolute; */
+    /* bottom: 300px; */
+    margin-left: 170px; 
+}
+/* estilos para el link */
+a:link {
+    color: #d38013b7;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #E06793;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #8D6CE0;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #E03838;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .contenedoralerta{
+    position: absolute;
+    background: rgb(250, 246, 246);
+    width: 600px;
+    height: 200px;
+    left: 700px;
+    top: 150px;
+    border-radius: 30px;
+}
+
+.alerta{
+    position: absolute;
+    top: 70px;
+    left: 40px;
+}
+
+.imagen4{
+    position: absolute;
+    left: 40px;
+    bottom: 160px;
+}
+
+.imagen5{
+    position: absolute;
+    right: 500px;
+    top: 131px;
+}
